@@ -33,6 +33,7 @@ dependencies {
 	providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'
 	testImplementation 'com.google.code.gson:gson'
 	implementation 'org.springframework.boot:spring-boot-starter-actuator'
+	implementation('org.springframework.boot:spring-boot-starter-thymeleaf')
 }
 
 tasks.named('test') {
